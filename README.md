@@ -227,7 +227,7 @@ Therefore, within this 86-sample test cohort, the observed differences in AUC do
 
 The results nevertheless demonstrate that CNV and methylation contain substantial ER-status-related information, while the additional modalities do not consistently improve classification when combined with the already highly informative RNA representation.
 
-Interpretation
+## Interpretation
 
 Several observations emerge from the analysis:
 
@@ -256,7 +256,7 @@ Change in predicted probability after multimodal fusion
 
 This allows individual rescues and errors introduced by multimodal integration to be examined rather than relying solely on aggregate AUC.
 
-Reproducibility
+## Reproducibility
 
 The analysis uses a fixed random seed and sample-level split to maintain consistent train, validation and test cohorts.
 
