@@ -193,6 +193,7 @@ Bootstrap Confidence Intervals
 
 Bootstrap 95% confidence intervals were estimated using 2,000 resamples.
 
+```
 Model	Test AUC	95% CI	Accuracy	95% CI
 RNA	0.9937	0.9804–1.0000	93.0%	87.2–97.7%
 CNV	0.9694	0.9275–0.9964	89.5%	82.6–95.3%
@@ -201,6 +202,9 @@ RNA + CNV	0.9945	0.9812–1.0000	93.0%	87.2–97.7%
 RNA + Methylation	0.9898	0.9712–1.0000	94.2%	88.4–98.8%
 CNV + Methylation	0.9804	0.9538–0.9986	91.9%	86.1–97.7%
 RNA + CNV + Methylation	0.9890	0.9696–1.0000	94.2%	88.4–98.8%
+```
+
+
 Comparison With RNA Alone
 
 RNA provided a highly informative latent representation for ER-status classification.
