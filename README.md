@@ -212,7 +212,7 @@ RNA provided a highly informative latent representation for ER-status classifica
 Paired bootstrap comparisons of test-set AUC were performed relative to RNA alone:
 
 ```
-Comparison	ΔAUC	95% CI
+Comparison	Delta_AUC	95% CI
 CNV − RNA	−0.0244	−0.0641 to 0.0026
 Methylation − RNA	−0.0165	−0.0421 to 0.0000
 RNA + CNV − RNA	+0.0008	−0.0036 to 0.0063
