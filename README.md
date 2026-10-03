@@ -194,14 +194,15 @@ Bootstrap Confidence Intervals
 Bootstrap 95% confidence intervals were estimated using 2,000 resamples.
 
 ```
-Model	Test AUC	95% CI	Accuracy	95% CI
-RNA	0.9937	0.9804–1.0000	93.0%	87.2–97.7%
-CNV	0.9694	0.9275–0.9964	89.5%	82.6–95.3%
-Methylation	0.9772	0.9446–0.9979	90.7%	83.7–96.5%
-RNA + CNV	0.9945	0.9812–1.0000	93.0%	87.2–97.7%
-RNA + Methylation	0.9898	0.9712–1.0000	94.2%	88.4–98.8%
-CNV + Methylation	0.9804	0.9538–0.9986	91.9%	86.1–97.7%
-RNA + CNV + Methylation	0.9890	0.9696–1.0000	94.2%	88.4–98.8%
+| Model                       | Test AUC | 95% CI          | Accuracy | 95% CI          |
+|-----------------------------|----------|-----------------|----------|-----------------|
+| RNA                         | 0.9937   | 0.9804–1.0000   | 93.0%    | 87.2–97.7%      |
+| CNV                         | 0.9694   | 0.9275–0.9964   | 89.5%    | 82.6–95.3%      |
+| Methylation                 | 0.9772   | 0.9446–0.9979   | 90.7%    | 83.7–96.5%      |
+| RNA + CNV                   | 0.9945   | 0.9812–1.0000   | 93.0%    | 87.2–97.7%      |
+| RNA + Methylation           | 0.9898   | 0.9712–1.0000   | 94.2%    | 88.4–98.8%      |
+| CNV + Methylation           | 0.9804   | 0.9538–0.9986   | 91.9%    | 86.1–97.7%      |
+| RNA + CNV + Methylation     | 0.9890   | 0.9696–1.0000   | 94.2%    | 88.4–98.8%      |
 ```
 
 
@@ -212,13 +213,14 @@ RNA provided a highly informative latent representation for ER-status classifica
 Paired bootstrap comparisons of test-set AUC were performed relative to RNA alone:
 
 ```
-Comparison	Delta_AUC	95% CI
-CNV − RNA	−0.0244	−0.0641 to 0.0026
-Methylation − RNA	−0.0165	−0.0421 to 0.0000
-RNA + CNV − RNA	+0.0008	−0.0036 to 0.0063
-RNA + Methylation − RNA	−0.0039	−0.0146 to 0.0018
-CNV + Methylation − RNA	−0.0134	−0.0347 to 0.0020
-RNA + CNV + Methylation − RNA	−0.0047	−0.0172 to 0.0030
+| Comparison                          | Delta_AUC | 95% CI              |
+|-------------------------------------|----------:|---------------------|
+| CNV − RNA                           |   −0.0244 | −0.0641 to 0.0026   |
+| Methylation − RNA                   |   −0.0165 | −0.0421 to 0.0000   |
+| RNA + CNV − RNA                     |   +0.0008 | −0.0036 to 0.0063   |
+| RNA + Methylation − RNA             |   −0.0039 | −0.0146 to 0.0018   |
+| CNV + Methylation − RNA              |   −0.0134 | −0.0347 to 0.0020  |
+| RNA + CNV + Methylation − RNA       |   −0.0047 | −0.0172 to 0.0030   |
 ```
 
 All confidence intervals include zero.
