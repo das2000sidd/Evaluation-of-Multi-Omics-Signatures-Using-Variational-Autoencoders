@@ -231,16 +231,10 @@ The results nevertheless demonstrate that CNV and methylation contain substantia
 
 ## Interpretation
 
-Several observations emerge from the analysis:
 
-RNA-seq generated a highly predictive latent representation.
-CNV and methylation independently contained useful predictive information.
-Combining latent representations produced high-performing classifiers.
-Multimodal fusion did not consistently improve AUC over RNA alone.
-Differences between the models were small relative to the uncertainty estimated from the test cohort.
-Multimodal integration changed predictions for individual samples, providing an opportunity to investigate cases where additional molecular modalities either supported or contradicted the RNA-based prediction.
+RNA-seq generated a highly predictive latent representation. However, CNV and methylation independently contained useful predictive information. Thus, Combining latent representations produced high-performing classifiers. However, multimodal fusion did not consistently improve AUC over RNA alone. The differences between the models were small relative to the uncertainty estimated from the test cohort. Multimodal integration changed predictions for individual samples, providing an opportunity to investigate cases where additional molecular modalities either supported or contradicted the RNA-based prediction.
 
-Importantly, the objective of this project is to demonstrate representation learning and multimodal integration, rather than to develop a clinically validated ER-status classifier.
+The project demonstrates utility o representation learning and multimodal integration for better patient stratification,
 
 Per-Sample Analysis
 
